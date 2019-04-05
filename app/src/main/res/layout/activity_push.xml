@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PushActivity">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10sp">
+
+        <RadioButton
+            android:id="@+id/rbBart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="Bart"
+            android:onClick="RadioClick"/>
+
+        <RadioButton
+            android:id="@+id/rbMilhouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="Milhouse"
+            android:onClick="RadioClick"/>
+
+        <RadioButton
+            android:id="@+id/rbLisa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="Lisa"
+            android:onClick="RadioClick"/>
+
+        <RadioButton
+            android:id="@+id/rbRalph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="Ralph"
+            android:onClick="RadioClick"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/courseidEditText"
+        android:hint="course id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:minWidth="200sp"/>
+
+    <EditText
+        android:id="@+id/coursenameEditText"
+        android:hint="course name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginHorizontal="10sp"
+        android:minWidth="200sp" />
+
+    <EditText
+        android:id="@+id/gradeEditText"
+        android:hint="grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginHorizontal="10sp"
+        android:minWidth="200sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Push"
+        android:onClick="PushEntry"/>
+
+</LinearLayout>

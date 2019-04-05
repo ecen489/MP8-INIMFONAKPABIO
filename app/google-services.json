@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "746953035728",
+    "firebase_url": "https://mp8-inimfonakpabio.firebaseio.com",
+    "project_id": "mp8-inimfonakpabio",
+    "storage_bucket": "mp8-inimfonakpabio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746953035728:android:c4dbfc08ccab7ea7",
+        "android_client_info": {
+          "package_name": "com.example.inimfonakpabio.mp8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746953035728-mgmkuem0b25f76k40nbja25ur89a7aj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inimfonakpabio.mp8",
+            "certificate_hash": "597e63fddcbdf561912dcecd22edc521ddbcfe4d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ssvQZf5fxq1eiKAAHfoai6kb5T2ziME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746953035728-qe090imrk7mgidh2fuspbcop6j6abaah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
